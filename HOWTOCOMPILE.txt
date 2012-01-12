@@ -1,0 +1,9 @@
+javac -cp .:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar *.java
+
+java -cp .:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.jar:jar/lwjgl_devil.jar:jar/jinput.jar -Djava.library.path=native/macosx GraphPaper
+
+
+
+git commit -m 'first commit'
+  git remote add origin git@github.com:dotoli/graphPaper.git
+  git push -u origin master
