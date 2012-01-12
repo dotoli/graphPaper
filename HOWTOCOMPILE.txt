@@ -5,5 +5,5 @@ java -cp .:jar/lwjgl.jar:jar/lwjgl_test.jar:jar/lwjgl_util.jar:jar/lwjgl_fmod3.j
 
 
 git commit -m 'first commit'
-  git remote add origin git@github.com:dotoli/graphPaper.git
+  git remote add origin git@github.com:dotoli/graphPaper.git    <----- only need to have done this once
   git push -u origin master
